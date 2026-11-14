@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Giữ giao diện sáng để khớp thiết kế dashboard */
+body {
+  background: #ffffff;
+  color: #171717;
+}
+
+/* Hiệu ứng "lướt sáng" cho skeleton loading */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
